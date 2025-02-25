@@ -6,11 +6,13 @@ An UnoPim package to add a CMS Page feature.
 
 # Installation
 
+- Run the following command:
+
 ```bash
 composer require magentix/unopim-cms
 ```
 
-Add the module to `config/concord.php`:
+- Add the module to `config/concord.php`:
 
 ```php
  <?php
@@ -23,7 +25,7 @@ Add the module to `config/concord.php`:
  ];
 ```
 
-Run the command to execute migrations and clear the cache:
+- Run the commands to execute migrations and clear the cache:
 
 ```bash
 php artisan migrate
