@@ -23,6 +23,13 @@ Add the module to `config/concord.php`:
  ];
 ```
 
+Run the command to execute migrations and clear the cache:
+
+```bash
+php artisan migrate
+php artisan optimize:clear
+```
+
 # API
 
 ## GET All pages
