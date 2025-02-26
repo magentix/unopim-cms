@@ -58,6 +58,12 @@ curl --location --globoff '{{url}}/api/v1/rest/pages' \
 --header 'Authorization: Bearer {{token}}'
 ```
 
+```bash
+curl --location --globoff '{{url}}/api/v1/rest/pages?filters={"status":[{"operator":"=","value":"1"}],"slug":[{"operator":"=","value":"my-slug"}]}&limit=1' \
+--header 'Accept: application/json' \
+--header 'Authorization: Bearer {{token}}'
+```
+
 ### Response
 
 ```json
