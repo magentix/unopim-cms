@@ -44,11 +44,11 @@ GET {{url}}/api/v1/rest/pages
 
 ### Query Params
 
-| Param   | Value                                      |
-|---------|--------------------------------------------|
-| filters | {"status":[{"operator":"=","value": "1"}]} |
-| page    | 1                                          |
-| limit   | 10                                         |
+| Param   | Value                                     |
+|---------|-------------------------------------------|
+| filters | {"status":[{"operator":"=","value":"1"}]} |
+| page    | 1                                         |
+| limit   | 10                                        |
 
 ### Code Snippet
 
